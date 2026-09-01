@@ -1,6 +1,6 @@
 # Avery McQueen
 
-**Operations systems engineer — Austin, Texas**
+**Operations systems architect — Austin, Texas**
 
 I build the systems that keep operational data trustworthy: CRM architecture, scheduled integration pipelines, and the validation layers that sit between them. Most of my work is the unglamorous middle of a business — the nightly sync that has to not fail silently, the reconciliation that decides which of two systems is right, the import that must not create four thousand duplicates.
 
