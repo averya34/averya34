@@ -36,7 +36,7 @@ All three are standard library only, tested across Python 3.10–3.12, and linte
 
 **Dry runs before writes.** Anything that touches a production CRM gets a mode that computes and reports everything and writes nothing. This is not a nicety — it is the difference between finding a mapping error in a report and finding it in 12,000 modified records.
 
-**Rules as reviewable data.** The person who knows what "clean" means is usually the operations lead, not the engineer. Configuration that lives in version control and gets reviewed in a pull request beats logic buried in a script.
+**Rules as reviewable data.** The person who knows what "clean" means is usually the operations lead, not the person maintaining the pipeline. Configuration that lives in version control and gets reviewed in a pull request beats logic buried in a script.
 
 **Fail loudly, fail specifically.** A distinct error type per failure mode, so a misconfigured sender and an actual attack do not look the same in a log. A spike in one is an incident; a spike in the other is a clock.
 
